@@ -1,0 +1,52 @@
+
+.nav-link{
+    color: rgb(107, 103, 103);
+    font-family: 'Domine', serif;
+}
+
+.navbar-brand {
+    font-family: 'Domine', serif;
+
+}
+
+.my-pic {
+    max-width: 250px;
+    max-height: 250px;
+    float: left !important;
+}
+
+body {
+    background: url(./assets/pictures/grass-sky.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: rgb(107, 103, 103);
+    font-family: 'Domine', serif;
+  }
+
+  /* Cards */
+container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 150px
+  
+  
+}
+
+/* Contact Card */
+.submit-btn {
+    display: inline-block;
+}
+
+#exampleFormControlInput1 {
+    border-color: rgb(38, 199, 199);
+}
+
+#exampleFormControlTextarea1 {
+    border-color: rgb(38, 199, 199);
+    
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
